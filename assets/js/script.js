@@ -30,20 +30,7 @@ lapBtn.addEventListener("click", lapTime);
 function startTime() {
   clearInterval(intervalIndex);
 
-  if (milliSecond >= secondInterval) {
-    milliSecond = 0;
-    second++;
-  }
-
-  if (second >= 60) {
-    second = 0;
-    minute++;
-  }
-
-  if (minute >= 60) {
-    minute = 0;
-    hour++;
-  }
+  
 
   // Enable lap button
   lapEnabled = true;
