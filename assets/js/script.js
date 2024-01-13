@@ -6,7 +6,7 @@ const lapBtn = document.querySelector("#lap");
 const showLap = document.querySelector("#lap-container");
 const result = document.querySelector("#result");
 
-let msInterval = 10;
+let msInterval = 1;
 let secondInterval = 100;
 let minuteInterval = 60 * secondInterval;
 let hourInterval = 60 * minuteInterval;
