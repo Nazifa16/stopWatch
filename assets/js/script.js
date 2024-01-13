@@ -60,7 +60,7 @@ function startTime() {
 
     // Update the timer display
     updateDisplay();
-  }, 100);
+  }, 10);
 }
 
 // Function to pause the timer
